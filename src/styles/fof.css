@@ -1,0 +1,11 @@
+.fof {
+  width: 100%;
+}
+
+.fof__card {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
