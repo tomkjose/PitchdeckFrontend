@@ -18,7 +18,6 @@
 
 .form__button {
   cursor: pointer;
-  width: 10%;
   margin: 1.4rem 0;
   background-color: #00c9b7;
   color: white;
@@ -39,9 +38,5 @@
 
   .form__card {
     width: 90%;
-  }
-
-  .form__button {
-    width: 30%;
   }
 }

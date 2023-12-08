@@ -13,9 +13,12 @@
 .history__heading span {
   width: 50%;
   padding: 1rem;
-  border-right: 0.01rem solid grey;
   font-weight: 700;
   color: #00c9b7;
+}
+
+.history__heading span:first-child {
+  border-right: 0.01rem solid grey;
 }
 
 .history__card {

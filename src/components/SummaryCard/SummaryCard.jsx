@@ -29,7 +29,7 @@ function SummaryCard({ summaryText }) {
           <div disabled className="summary__output">
             {summaryText}
           </div>
-          <button className="copy__btn" onClick={handleCopy}>
+          <button className="copy__btn" type="button" onClick={handleCopy}>
             {" "}
             <FontAwesomeIcon
               icon={faCopy}
