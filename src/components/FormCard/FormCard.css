@@ -1,0 +1,47 @@
+.form__card {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__input {
+  width: 70%;
+  border-radius: 0.8rem;
+  height: 200px;
+  resize: none;
+  outline-color: #00c9b7;
+  padding: 1rem;
+}
+
+.form__button {
+  cursor: pointer;
+  width: 10%;
+  margin: 1.4rem 0;
+  background-color: #00c9b7;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-weight: 800;
+}
+
+.form__button:hover {
+  background-color: #02998d;
+}
+
+@media screen and (max-width: 1200px) {
+  .form__input {
+    width: 90%;
+  }
+
+  .form__card {
+    width: 90%;
+  }
+
+  .form__button {
+    width: 30%;
+  }
+}

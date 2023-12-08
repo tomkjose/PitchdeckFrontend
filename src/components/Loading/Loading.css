@@ -1,0 +1,17 @@
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #000000;
+  border-bottom-color: #00c8ff;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loading__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

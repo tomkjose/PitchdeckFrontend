@@ -1,0 +1,38 @@
+.history {
+  width: 100%;
+}
+
+.history__heading {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  border: 0.01rem solid grey;
+  border-radius: 0.8rem;
+}
+
+.history__heading span {
+  width: 50%;
+  padding: 1rem;
+  border-right: 0.01rem solid grey;
+  font-weight: 700;
+  color: #00c9b7;
+}
+
+.history__card {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  border: 0.01rem solid grey;
+  border-radius: 0.8rem;
+}
+
+.history__inputs {
+  width: 50%;
+  padding: 1rem;
+  border-right: 0.01rem solid grey;
+}
+
+.history__outputs {
+  width: 50%;
+  padding: 1rem;
+}

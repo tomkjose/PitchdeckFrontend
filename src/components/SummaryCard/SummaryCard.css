@@ -1,0 +1,35 @@
+.summary__card {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary__output__container {
+  width: 100%;
+  border: 0.01rem solid black;
+  border-radius: 0.8rem;
+  resize: none;
+  outline-color: #00c9b7;
+  padding: 1rem;
+}
+
+.copy__btn {
+  cursor: pointer;
+  margin: 1.4rem 0;
+  background-color: #00c9b7;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-weight: 800;
+}
+
+.copy__btn:hover {
+  background-color: #02998d;
+}
+
+@media screen and (max-width: 1200px) {
+  .summary__card {
+    width: 90%;
+  }
+}

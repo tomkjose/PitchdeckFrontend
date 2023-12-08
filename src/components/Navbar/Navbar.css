@@ -1,0 +1,22 @@
+.navbar {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.nav {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #00c9b7;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.nav__link:hover {
+  color: #017e74;
+}

@@ -1,0 +1,10 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__title {
+  padding: 1rem 0;
+}
